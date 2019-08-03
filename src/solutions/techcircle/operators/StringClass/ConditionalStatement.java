@@ -52,23 +52,23 @@ public class ConditionalStatement {
 //		}
 		
 	//////	
-//		Scanner ageVerification = new Scanner(System.in);
-//				
-//		System.out.println("Please enter your legal Age?");		
-//		int userEnteredNumber = ageVerification.nextInt();
-//		
-//		
-//		if(userEnteredNumber < 4 && userEnteredNumber > 0) {
-//			System.out.println("Welcome to this world kid");
-//		}else if(userEnteredNumber >=4 && userEnteredNumber <= 19){
-//			System.out.println("You just getting started");
-//		}else if(userEnteredNumber >=20 && userEnteredNumber <= 55) {
-//			System.out.println("life is good");
-//		}else if(userEnteredNumber > 55) {
-//			System.out.println("getting old");
-//		}else {
-//			System.out.println("are you sure about your age?");
-//		}
+		Scanner ageVerification = new Scanner(System.in);
+				
+		System.out.println("Please enter your legal Age?");		
+		int userEnteredNumber = ageVerification.nextInt();
+		
+
+		if(userEnteredNumber < 4 && userEnteredNumber > 0) {
+			System.out.println("Welcome to this world kid");
+		}else if(userEnteredNumber >=4 && userEnteredNumber <= 19){
+			System.out.println("You just getting started");
+		}else if(userEnteredNumber >=20 && userEnteredNumber <= 55) {
+			System.out.println("life is good");
+		}else if(userEnteredNumber > 55) {
+			System.out.println("getting old");
+		}else {
+			System.out.println("are you sure about your age?");
+		}
 		
 		//////Grades
 		Scanner youGrade = new Scanner(System.in);
