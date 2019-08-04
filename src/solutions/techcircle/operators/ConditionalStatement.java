@@ -1,4 +1,4 @@
-package solutions.techcircle.operators.StringClass;
+package solutions.techcircle.operators;
 
 import java.util.Scanner;
 
