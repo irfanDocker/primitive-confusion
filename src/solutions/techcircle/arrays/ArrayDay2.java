@@ -1,37 +1,105 @@
 package solutions.techcircle.arrays;
 
+import java.util.Arrays;
+import java.util.Iterator;
+
 public class ArrayDay2 {
 	public static void main(String[] args) {
 
-		char[] lowerCaseCharArray = { 'a', 'b', 'c', 'b', 'c', 'b', 'c', 'b', 'c', 'b', 'c', 'b', 'c', 'd', 'e', 'f' };
-		// 'a','b','c','b','c','b','c','b','c','b','c','b','c','D','E','f'
-
-//		char d =  lowerCaseCharArray[3];
-
-		int index = 0;
-
-		for (char singleChar : lowerCaseCharArray) {
-			// System.out.println(singleChar);
-			if (singleChar == 'd') {
-
-				lowerCaseCharArray[index] = 'D';
-			}
-
-			if (singleChar == 'e') {
-
-				lowerCaseCharArray[index] = 'E';
-			}
-
-			if (singleChar == 'b') {
-
-				lowerCaseCharArray[index] = 'B';
-
-			}
-
-			index++;
+		//abcdefghijklmnopqrstuvwxyz
+		
+		String strs[] = {"a","b","z","h","w","r"};
+		
+		
+		//1,2,3,6,23,44
+		int nums[] = {3,1,44,23,2,6};
+		
+		
+		Arrays.parallelSort(strs);
+		
+		Arrays.sort(nums);
+		
+		for (int i = 0; i < strs.length; i++) {
+			System.out.print(strs[i]);
 		}
+		
+		System.out.println();
+		
+		for (int i : nums) {
+			System.out.print(i);
+		}
+		
+		
+		
+//		String [] cars  = {"Toyota","Honda","Ferrari","GM","Ford","Lanborgini"};
+	//                 {"Toyota","Honda","Ferrari","General Motor","Ford","Lanborgini"};		
+		
+//		int index = 0;
+//		
+//		for (String make : cars) {
+//			if (make.equalsIgnoreCase("gM")) {
+//				cars[index] = "General motor";
+//			}
+//			
+//			index ++;
+//		}
+//		
+//		for (String string : cars) {
+//			System.out.println(string);
+//		}
+//		
+		
+		//System.out.println(cars);
+		
+		
+//		for (int i = 0; i < cars.length; i++) {
+//			if(cars[i].equalsIgnoreCase("gm")) {
+//				cars[i] = "General Motor!";
+//			}
+//
+//		}
+//		
+//		
+//		for (String string : cars) {
+//			System.out.println(string);
+//		}
+//		
+		//System.out.println(cars.toString());
+		
 
-		System.out.println(lowerCaseCharArray);
+		
+		
+		
+		
+//		char[] lowerCaseCharArray = { 'a', 'b', 'c', 'b', 'c', 'b', 'c', 'b', 'c', 'b', 'c', 'b', 'c', 'd', 'e', 'f' };
+//		// 'a','b','c','b','c','b','c','b','c','b','c','b','c','D','E','f'
+//
+////		char d =  lowerCaseCharArray[3];
+//
+//		int index = 0;
+//
+//		for (char singleChar : lowerCaseCharArray) {
+//			// System.out.println(singleChar);
+//			if (singleChar == 'd') {
+//
+//				lowerCaseCharArray[index] = 'D';
+//			}
+//
+//			if (singleChar == 'e') {
+//
+//				lowerCaseCharArray[index] = 'E';
+//			}
+//
+//			if (singleChar == 'b') {
+//
+//				lowerCaseCharArray[index] = 'B';
+//
+//			}
+//
+//			index++;
+//		}
+
+//		System.out.println(lowerCaseCharArray);
 
 //		int numbers[] =  {1,2,3,4,5};
 		
