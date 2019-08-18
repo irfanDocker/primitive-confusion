@@ -34,7 +34,7 @@ public class ArrayDay2 {
 		System.out.println(lowerCaseCharArray);
 
 //		int numbers[] =  {1,2,3,4,5};
-//		
+		
 //		for (int i : numbers) {
 //			System.out.println(i);
 //		}
