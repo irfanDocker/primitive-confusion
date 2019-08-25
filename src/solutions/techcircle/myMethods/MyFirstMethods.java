@@ -41,6 +41,10 @@ Why use methods? To reuse code: define the code once, and use it many times.*/
 
 	static void checkAge(int age) {
 
+		
+		
+		
+		
 		// If age is less than 18, print "access denied"
 		if (age < 18) {
 			System.out.println("Access denied - You are not old enough!");
