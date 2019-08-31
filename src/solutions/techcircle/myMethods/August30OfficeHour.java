@@ -4,19 +4,79 @@ public class August30OfficeHour {
 	public static void main(String[] args) {
 	
 		int additionTotal = calculator(33,3,"addition");
-		
+	
+		int divisionTotal = calculator(3,0,"division");
+	
 		int subtractionTotal = calculator(43,33,"subtraction");
 		
 		int multiplicationTotal = calculator(3,3,"multiplication");
 		
-		int divisionTotal = calculator(3,3,"division");
+		
+		System.out.println(subtractionTotal);
+		System.out.println(multiplicationTotal);
 		
 		
-		if(additionTotal == 66) {
-			System.out.println("you are correct");
-		}else {
-			System.out.println("There is something wrong your calculator method");
-		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		if(additionTotal == 66) {
+//			System.out.println("you are correct");
+//		}else {
+//			System.out.println("There is something wrong your calculator method");
+//		}
+//		
+//		
+//		if(additionTotal == 336) {
+//			System.out.println("you are correct from line 23");
+//		}else {
+//			System.out.println("There is something wrong your calculator method");
+//		}
+//		
+//		
+//		if(subtractionTotal == 130) {
+//			System.out.println("you are correct from line 31 subtracting 2 number");
+//		}else {
+//			System.out.println("There is something wrong your calculator method");
+//		}
+//		
+//		
+//		
+//		if(multiplicationTotal == 39) {
+//			System.out.println("you are correct multiplicationTotal");
+//		}else {
+//			System.out.println("There is something wrong your calculator method");
+//		}
+//		
+//		
+//		if(divisionTotal == 13) {
+//			System.out.println("you are correct divisionTotal");
+//		}else {
+//			System.out.println("There is something wrong your calculator method");
+//		}
+//		
+		
 		
 		
 	}
@@ -110,8 +170,22 @@ public class August30OfficeHour {
 	
 	
 	
-	public static int divide2number(int a,int b) {
-		int total = a / b; 
+	public static int divide2number(int a,int b)  throws ArithmeticException {
+		
+//		if (b == 0) {
+//			throw new ArithmeticException("/ by zero");
+//		}
+		int total = 0;
+		try {
+			
+
+				total = a / b;
+		} catch (Exception e) {
+			
+//			e.printStackTrace();
+			System.out.println("Check your divide2number method");
+		}
+
 		return total;
 	}
 	
