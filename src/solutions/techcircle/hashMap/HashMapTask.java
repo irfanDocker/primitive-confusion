@@ -24,6 +24,8 @@ public class HashMapTask {
 	    for (String i : people.keySet()) {
 	      System.out.println("key: " + i + " value: " + people.get(i));
 	    }
+	    
+	    System.out.println(people.size());
 		
 		
 		
