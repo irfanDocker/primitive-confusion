@@ -1,5 +1,7 @@
 package solutions.techcircle.ObjectAndClasses;
 
+import java.util.ArrayList;
+
 public class EmployeeTest {
 
 	public static void main(String[] args) {
@@ -20,6 +22,10 @@ public class EmployeeTest {
          empTwo.empDesignation("Software Engineer");
          empTwo.empSalary(110000);
          empTwo.printEmployee();
+         
+         ArrayList<Employee> list1s = new ArrayList<Employee>();
+         //ArrayList<Data type> list1s = new ArrayList<Data type>();
+         
 
 	}
 
