@@ -9,8 +9,8 @@ public class MethodReturnType {
 		
 		int b = addingNumbers(3, 90);
 		
-		
-		System.out.println(a + b);
+		int total = a +b;
+		System.out.println(total);
 		
 		
 		
